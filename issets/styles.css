@@ -1,0 +1,139 @@
+/*pour mettre la police du corps en Roboto*/
+body,h1,a {font-family:'Roboto',sans-serif;
+}
+
+/*couleur de l'arrière plan main*/
+main{background: linear-gradient(to bottom,rgb(224, 218, 208),rgb(77, 77, 173));
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+    
+/*barre de navigation*/
+nav ul li{  display: inline;
+    font-size: 18px;
+    background-color:rgb(162, 120, 47);
+    border-radius:10px;
+    padding-inline: 30px;
+
+
+}
+
+/*couleur des liens*/
+nav a{color:white;
+    text-decoration: none;
+
+}
+
+/*changement de couleur en survolant*/
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*couleur arrière plan header et forme du bordure*/
+header{background-color: rgb(241, 243, 245);
+        padding:2px;
+        border-radius: 20px;
+    }
+
+/*style de la description*/
+.description{display: flex;
+            gap:30px;
+            justify-content:center;
+            border: solid;
+            border-top: none;
+            border-bottom: none;
+            border-radius: 20px;
+            border-color: aliceblue;
+        }
+
+/*mise en place du position dutexte dans descrition*/
+.description p{ padding-top: 25px;
+                width: 50%;
+                height: 50%;
+                text-align: justify;
+
+}
+/*arriere plan du section apropos,couleur,bordure*/
+.apropos{background-image:url('images/Unknown.jpeg');
+            background-size: cover;
+            border-radius: 20px;
+            color: white;
+            text-align: justify;
+            padding:20px;
+}
+.apropos h2{color: black;
+
+
+}
+
+/*la disposition de competences et bordure*/
+.competences{display: block;
+        margin: auto;
+        width:400px;
+
+
+}
+.competences ul{border: groove rgb(145, 145, 201);
+                padding:20px;
+
+
+}
+
+/* Style général de la section */
+#contact {border: groove rgb(160, 126, 193);
+    margin-top:20px;
+   
+    width: 400px;
+    padding: 20px;
+   
+    border-radius: 10px;
+}
+
+/* Style du titre "Contactez-moi" */
+#contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style des étiquettes des champs de formulaire */
+#contact label {
+    font-weight: bold;
+}
+
+/* Style des champs de formulaire */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Pour inclure la bordure et le rembourrage dans la largeur */
+}
+
+/* Style du bouton d'envoi */
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style du bouton d'envoi au survol */
+#contact button:hover {
+    background-color: #45a049;
+}
+
+footer{display:flex;
+    align-items:stretch;
+    background-color: rgb(151, 184, 219);
+  
+    border-radius: 20px;
+}

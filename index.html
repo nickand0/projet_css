@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Jules">
+    <link rel="shortcut icon" href="issets/images/1597px-Ando_logo.png" type="image/png">
+    <link rel="stylesheet" href="issets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio de Jules</title>
+</head>
+<body>
+
+<header><!-- navigation-->
+    <center><h1 id="home"><i>Portfolio de Jules</i></h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#apropos">À-propos</a></li>
+            <li><a href="#travail">Projets</a></li>
+            <li><a href="#cv">Mon-cv</a></li>
+            <li><a href="#contact">Contact</a></li>
+               
+        </ul>
+    </nav>
+</center>
+
+</header>
+
+<main>
+    <section >
+        <center><h2>Jules photographe</h1></center>
+        <div class="description">
+            <p>Découvrez le monde à travers l'objectif captivant de Jules,<strong> un talentueux photographe </strong>. Passionné par l'art de la photographie depuis son plus jeune âge, Jules s'efforce de capturer l'essence même de chaque moment à travers son objectif.
+
+                Ses clichés révèlent une sensibilité artistique unique et une attention méticuleuse aux détails. Que ce soit en explorant des paysages magnifiques, en immortalisant des événements spéciaux ou en capturant la beauté intemporelle des personnes, Jules crée des images qui racontent des histoires, évoquent des émotions et captivent l'imagination.
+                
+            </p>
+        
+            <img src="issets/images/images.jpeg" alt="photo de profil de jules">
+        </div>
+    </section>
+    
+    <!-- Section "À propos" -->
+    <section id="apropos" class="apropos">
+       <center><h2>Nous?</h2></center>
+        <p>En tant qu'équipe de photographes, nous nous efforçons de capturer l'essence même de chaque moment à travers nos objectifs. Notre passion pour l'art de la photographie transparaît dans chaque image que nous créons, où la lumière, la composition et les émotions se mêlent harmonieusement pour donner naissance à des œuvres visuellement captivantes. Dotés d'un sens aigu de l'esthétique et d'une créativité sans limites, nous explorons les moindres détails pour capturer la beauté cachée du monde qui nous entoure. Chaque photographie que nous prenons est une invitation à voir le monde à travers nos yeux, à ressentir l'émotion qui émane de nos images et à vivre l'instant présent à travers nos objectifs. Avec notre talent indéniable et notre vision artistique unique, nous continuons d'inspirer et d'émerveiller ceux qui ont la chance de découvrir notre travail.</p>
+    
+   
+        <div class="competences">
+            <center><h2>Nos Atouts</h2></center>
+                <ul type="square">
+                    <i>
+                        <li>Composition photographique experte.</li>
+                        <li>Maîtrise des équipements et accessoires.</li>
+                        <li>Post-production et retouche d'image.</li>
+                        <li>Communication clientèle efficace.</li>
+                        <li>Photographie polyvalente et créative.</li>
+                        <li>Travail autonome et en équipe.</li>
+                        <li>Engagement pour l'amélioration continue.</li>
+                    </i>
+                </ul>
+        </div>
+    <!--les tarifs -->
+    <center><h2>Tarifs</h2>
+                <table border="1">
+                    <tr>
+                        <th>Désignation</th>
+                        <th>Quantité</th>
+                        <th>Prix</th>
+                    </tr>
+                    <tr>
+                    <td>Retouches photo studio professionnel</td>
+                    <td>800 photos</td>
+                    <td>3200 €/800 photos</td>
+                    </tr>
+                    <tr>
+                        <td>Assistant photo lumière professionnel</td>
+                        <td>2 sets studio</td>
+                        <td>1500€/journée</td>
+                    </tr>
+            
+                </table>
+        </center> 
+    </section>
+
+
+
+    <!-- Section "travail " -->
+    <section id="travail">
+        <center>
+        <h2>Mes Travails</h2>
+        
+            <div class="image">
+                <img src="issets/images/element-1.png" alt="paysage1">
+                <img src="issets/images/element-2.png" alt="paysage2">
+                <img src="issets/images/element-3.png" alt="paysage3">
+                <img src="issets/images/element-4.png" alt="paysage4">
+                <img src="issets/images/element-5.png" alt="paysage5">
+                <img src="issets/images/element-6.png" alt="paysage6">
+            </div>
+       
+    
+    <!-- Ajout d'une vidéo de présentation -->
+        <h2>video diaporama de mon travail</h2>
+            <video controls width="500" height="400" >
+            <source src="issets/images/portrait.m4v" type="video/mp4">
+            Votre navigateur ne prend pas en charge la lecture de vidéos MOV.
+        
+            </video>
+    <!--telechargement de mon cv-->
+    <section id="cv"></section>
+    <p>Vous pouvez télécharger mon CV au format PDF en cliquant sur le lien ci-dessous :</p>
+
+    <a href="mon_cv.pdf" download="CV_jules.pdf">Télécharger mon CV</a>
+
+    <!-- Section "Contact" -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="envoyer_message.php" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024  Mon Portfolio . Tous droits réservés.</p>
+    <a href="https://www.instagram.com"><img src="issets/images/instagram_mini.jpg" alt=""></a>
+</footer>
+</center>
+
+
+
+</body>
+</html>
